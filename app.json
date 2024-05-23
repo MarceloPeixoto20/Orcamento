@@ -40,6 +40,12 @@
         "projectId": "84f2a89e-b8ea-4dab-8edb-e33ae0bad6d0"
       }
     },
-    "owner": "marcelopeixoto"
+    "owner": "marcelopeixoto",
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/84f2a89e-b8ea-4dab-8edb-e33ae0bad6d0"
+    }
   }
 }

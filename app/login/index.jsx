@@ -12,6 +12,14 @@ export default function TelaLogin(){
           await services.storeData('login','true')
           router.replace('/')
         }
+    const handleLogout = async () => {      
+      const isLoggedOut = await client.logout();
+      if (isLoggedOut) {
+        await services.storeData('login','false')
+        router.replace('/login')
+      }
+    }  
+
       };
     return (
         <View> 
