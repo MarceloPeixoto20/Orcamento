@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "Orcamento",
-    "slug": "Orcamento",
+    "slug": "orcamento",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
@@ -31,6 +31,15 @@
     ],
     "experiments": {
       "typedRoutes": true
-    }
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "84f2a89e-b8ea-4dab-8edb-e33ae0bad6d0"
+      }
+    },
+    "owner": "marcelopeixoto"
   }
 }
